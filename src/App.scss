@@ -1,0 +1,53 @@
+#App {
+  th {
+    color: rgb(197, 182, 182);
+    font-size: 0.9rem;
+  }
+  .standard-perms {
+    th,
+    td {
+      text-align: center;
+      width: 80px;
+    }
+  }
+  .standard-perms,
+  .additional-perms {
+    border-collapse: collapse;
+    margin-left: 0.5rem;
+  }
+  tr {
+    display: block;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgb(224, 218, 218);
+  }
+  h3 {
+    font-size: 1rem;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+  .name {
+    text-align: left !important;
+  }
+  .additional-perms {
+    th,
+    td {
+      width: 240px;
+    }
+  }
+  button {
+    margin-top: 2rem;
+    background-color: transparent;
+    border: 2px solid purple;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover {
+      transition-duration: 0.4s;
+      background-color: purple;
+      color: white;
+    }
+  }
+}
